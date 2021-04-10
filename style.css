@@ -1,0 +1,110 @@
+*{
+    color: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+
+
+header{
+    display: flex;
+}
+
+.Logo{
+    transition: 1s;
+    border-radius: 50%;
+    width: 50%;
+}
+
+.Logo:hover{
+    transition: 2s;
+    border-radius: 40%;
+    box-shadow: 0 0 100px rgb(246, 255, 81);
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    animation: AnimacaoBg 25s infinite;
+}
+@keyframes AnimacaoBg {
+    0%{
+
+    }
+    50%{
+        
+    }
+    100%{
+
+    }
+}
+
+#Errou{
+    text-align: center;
+    
+}
+
+.quiz{
+    margin: auto;
+}
+
+section{
+    display: grid;
+    background-color: rgb(255, 227, 70);
+    border-radius: 15px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+section:hover{
+    background-color: rgb(255, 232, 102);
+    box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+form{
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+
+button{
+    transition: 1s;
+    animation: none;
+    border-radius: 5px;
+    background-color: chartreuse;
+    width: 120px;
+    margin: 40px;
+}
+button:hover{
+    animation: none;
+}
+
+.Pula{
+    margin: auto;
+    width: auto;
+}
+
+.Pula:hover{
+    animation: Botaum 1s;
+}
+
+@keyframes Botaum{
+    0%{
+        transform: translateY(-25px);
+    }
+    50%{
+        transform: translateY(-50px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+    
+
+
+footer{
+    margin-top: 500px;
+    border-radius: 15px;
+    background-color: rgba(114, 88, 228, 0.767);
+}
